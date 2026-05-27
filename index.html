@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/webp" href="logo.webp">
 <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
@@ -52,6 +53,7 @@
     <li><a href="#projects">Projects</a></li>
     <li><a href="#experience">Experience</a></li>
     <li><a href="#contact">Contact</a></li>
+    <li><a href="https://drive.google.com/file/d/12tRxZQyOnuAmT7Cyb14vGDUtL-uwKAM3/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">Resume</a></li>
   </ul>
 
   <!-- Mobile hamburger -->
@@ -151,13 +153,18 @@ TypeScript, Node.js, PostgreSQL, and RESTful API design.
       </div>
     </div>
 
-    <div class="about-visual fade-in" style="transition-delay:0.15s">
-      <div class="planet-ring"></div>
-      <div class="planet-ring"></div>
-      <div class="planet-ring"></div>
-      <div class="planet-core"></div>
-    </div>
+   <div class="about-visual fade-in" style="transition-delay:0.15s">
+  <div class="loader-wrapper">
+    <span class="loader-letter">A</span>
+    <span class="loader-letter">d</span>
+    <span class="loader-letter">i</span>
+    <span class="loader-letter">t</span>
+    <span class="loader-letter">y</span>
+    <span class="loader-letter">a</span>
+    <div class="loader"></div>
   </div>
+
+</div>
 </section>
 
 <div class="full-divider"></div>
@@ -197,6 +204,9 @@ TypeScript, Node.js, PostgreSQL, and RESTful API design.
   <p class="section-desc fade-in">A selection of projects launched into production.</p>
   <div class="projects-grid">
 
+
+    
+
     <div class="project-card fade-in" style="transition-delay:0.05s">
       <div class="glow-orb" style="background:#7c6ef8"></div>
       <div class="project-num">PROJECT_01</div>
@@ -233,7 +243,7 @@ TypeScript, Node.js, PostgreSQL, and RESTful API design.
     <div class="project-card fade-in" style="transition-delay:0.12s">
       <div class="glow-orb" style="background:#38bdf8"></div>
       <div class="project-num">PROJECT_03</div>
-      <h3 class="project-title">Healthcare SaaS</h3>
+      <h3 class="project-title">Kraevo</h3>
       <p class="project-desc">B2B Healthcare SaaS platform co-founded as a startup venture. Streamlining clinical workflows for healthcare providers.</p>
       <div class="project-tags">
         <span class="tag">Next.js</span>
@@ -337,6 +347,10 @@ TypeScript, Node.js, PostgreSQL, and RESTful API design.
     <a class="social-link" href="https://x.com/goofy_elf" target="_blank" rel="noopener">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.259 5.631 5.905-5.631zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
       Twitter / X
+    </a>
+    <a class="social-link" href="https://drive.google.com/file/d/12tRxZQyOnuAmT7Cyb14vGDUtL-uwKAM3/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-8 6H9v8h6V9h-3z"/></svg>
+      Resume
     </a>
   </div>
 </section>
