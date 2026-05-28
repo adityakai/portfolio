@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://adityakaithwas.is-a.dev/sitemap.xml
