@@ -513,12 +513,7 @@ section {
   background: rgba(124,110,248,0.08);
 }
 
-.skill-dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  flex-shrink: 0;
-}
+
 
 /* ── PROJECTS ── */
 #projects .projects-grid {
